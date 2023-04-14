@@ -1,6 +1,9 @@
 # My solution / implementation
 
-Uses a [Deque/Double Ended Queue](https://en.wikipedia.org/wiki/Double-ended_queue) data structure. Parses the arguments put in to see if they are numeric or are operators one by one. Expects the first argument to be numeric and then alternates the expected values. Each numeric/operator value is pushed to the back of one of the two respective deques. Whenever the deque reaches size 3, perform calculations by removing then pushing back from the head side or tail side based off what operations we have. The size of the deque will never exceed 3. After going through all the input arguments, exhaust the remaining values in the deque. The last numeric value in the numerical deque is the solution.
+Uses a [Deque/Double Ended Queue](https://en.wikipedia.org/wiki/Double-ended_queue) data structure. Parses the arguments to see if they are numeric or are operators one by one. Expects the first argument to be numeric and then alternates the expected values. Each numeric/operator value is pushed to the back of one of the two respective deques. Whenever the deque reaches size 3, perform calculations by removing then pushing back from the head side or tail side based off what operations we have. The size of the deque will never exceed 3. After going through all the input arguments, exhaust the remaining values in the deque. The last numeric value in the numerical deque is the solution.
+
+Solution is O(n) for both time and space complexity.
+grade 25/25
 
 # Assignment Description
 

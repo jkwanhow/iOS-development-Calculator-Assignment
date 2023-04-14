@@ -1,3 +1,9 @@
+# My solution / implementation
+
+Uses a [Deque/Double Ended Queue](https://en.wikipedia.org/wiki/Double-ended_queue) data structure. Parses the arguments put in to see if they are numeric or are operators one by one. Expects the first argument to be numeric and then alternates the expected values. Each numeric/operator value is pushed to the back of one of the two respective deques. Whenever the deque reaches size 3, perform calculations by removing then pushing back from the head side or tail side based off what operations we have. The size of the deque will never exceed 3. After going through all the input arguments, exhaust the remaining values in the deque. The last numeric value in the numerical deque is the solution.
+
+# Assignment Description
+
 <img src="docs/UTS-Logo.png" alt="University of Technology Sydney" width="200" style="width: 30%; float: left; padding: 0 1em 1em 0;"/><p>Faculty of Engineering and Information Technology<br/>School of Software</p>
 
 <p style="clear:left">41889 - Application Development in the iOS Environment<br/>42889 - iOS Application Development<br/>Autumn 2019</p>
@@ -8,7 +14,7 @@
 
 Individual programming project: Command-line calculator
 
-Due 5rd April 2019 at 11:59 pm  
+Due March 24th 2023 at 11:59 pm  
 
 This project is worth 25% of the overall mark for this subject.
 

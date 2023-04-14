@@ -4,8 +4,6 @@ Uses a [Deque/Double Ended Queue](https://en.wikipedia.org/wiki/Double-ended_que
 
 Solution is O(n) for both time and space complexity.
 
-grade recieved 25/25
-
 # Assignment Description
 
 <img src="docs/UTS-Logo.png" alt="University of Technology Sydney" width="200" style="width: 30%; float: left; padding: 0 1em 1em 0;"/><p>Faculty of Engineering and Information Technology<br/>School of Software</p>
